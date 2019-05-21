@@ -1,0 +1,1 @@
+from celery_in_project.tasks import addadd.delay(3,4)add.delay(5,6)
