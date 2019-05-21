@@ -1,0 +1,1 @@
+from tasks import addadd.delay(3,5)add.delay(10,20)

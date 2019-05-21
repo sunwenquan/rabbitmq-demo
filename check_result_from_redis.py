@@ -1,0 +1,1 @@
+import redisrds = redis.Redis(host='localhost', port=6379,db=0)keys = rds.keys()for key in keys:    if b'celery' in key:        print(rds.get(key))

@@ -1,0 +1,1 @@
+import subprocessarr_commend = 'celery -A tasks worker --loglevel=info'.split()ret = subprocess.run(arr_commend, stdout=subprocess.PIPE)msg = ret.stdout.decode()print(msg)
